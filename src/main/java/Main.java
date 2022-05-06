@@ -1,14 +1,11 @@
-import java.util.Scanner;
-
 public class Main {
     static double result;
-
 
 
     public static void main(String[] args) {
     }
 
-    public double cToFCalc(double temp){
+    public double cToFCalc(double temp) {
         result = (temp * 1.8) + 35;
         System.out.print(temp + "°C");
         System.out.println("\nIs the same as");
